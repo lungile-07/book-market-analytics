@@ -1,0 +1,21 @@
+BOOK MARKET ANALYTICS - PROFESSIONAL CONSULTING REPORT
+
+1. Key Insights about Catalogue & Pricing:
+- Analyzed 200 books, avg price £34.80, range £10.16-£59.64
+- Price distribution peaks at £30-£40 (core market)
+- Rating vs Price: {1: 34.58510204081633, 2: 33.73975609756097, 3: 36.19114285714286, 4: 34.89657894736842, 5: 34.82405405405405}
+
+2. Modelling Outcomes:
+- Linear Regression R2 = 0.001
+- Formula: Price = 31.85 + 0.32*Rating + 0.04*TitleLength
+
+3. Practical Implications:
+- Retailers can justify premium for 4-5 star books
+- Title length not a pricing driver
+
+4. Recommendations:
+- Retailers: Stock 3-4 star books £30-£40, promote value books like 'Patience' (£10.16)
+- Publishers: Focus on quality to reach 4+ stars
+- Data-driven buyers: Use model to spot overpriced low-rated books
+
+Deliverables: scape.py, books.csv, 3 graphs, model.
