@@ -1,23 +1,23 @@
-# Book Market Analytics - Consulting App
+ Book Market Analytics - Consulting App
 
-## Project Description
+Project Description
 This project analyzes the book market using web scraping and data analytics to provide business insights for retailers and publishers. It scrapes book data from Books to Scrape website, cleans it, visualizes market trends, and builds a predictive model for book pricing.
 
-## Features
-1.  **Web Scraping (scape.py):** Scrapes 1000 books from books.toscrape.com including Title, Price, Rating, and Availability.
-2.  **Data Cleaning (analysis.py):** Cleans dataset, converts text ratings to numerical values (One to Five -> 1-5), calculates title length, and handles missing values.
-3.  **Visualization (3_visualization.py):** Generates 3 professional graphs:
+Features
+1. Web Scraping (scape.py): Scrapes 1000 books from books.toscrape.com including Title, Price, Rating, and Availability.
+2. Data Cleaning (analysis.py):Cleans dataset, converts text ratings to numerical values (One to Five -> 1-5), calculates title length, and handles missing values.
+3. Visualization (3_visualization.py): Generates 3 professional graphs:
     - Price Distribution (histogram)
     - Average Price by Rating (bar chart)
     - Price vs Rating relationship (scatter plot)
-4.  **Modelling (modelling.py):** Uses Linear Regression to predict Price from Rating and Title Length. Evaluates using R2 Score and MSE.
-5.  **Reporting (report.py / professional_report.txt):** Generates a professional consulting report with key insights, model outcomes, and business recommendations.
+4.  Modelling (modelling.py): Uses Linear Regression to predict Price from Rating and Title Length. Evaluates using R2 Score and MSE.
+5.  Reporting (report.py / professional_report.txt): Generates a professional consulting report with key insights, model outcomes, and business recommendations.
 
-## Technologies Used
+Technologies Used
 - Python
 - Pandas, Matplotlib, Scikit-learn, Requests, BeautifulSoup
 
-# How to Run
+How to Run
 1. Install dependencies: `pip install pandas matplotlib scikit-learn requests beautifulsoup4`
 2. Run scraper: `python scape.py`
 3. Run analysis: `python analysis.py`
@@ -25,7 +25,7 @@ This project analyzes the book market using web scraping and data analytics to p
 5. Run model: `python modelling.py`
 6. Run report: `python report.py`
 
-#Files in this Folder(book_market_analytics)
+Files in this Folder(book_market_analytics)
 - books.csv - Dataset (1000 books)
 - scape.py - Web scraping code
 - analysis.py - Data cleaning
@@ -36,7 +36,8 @@ This project analyzes the book market using web scraping and data analytics to p
 - professional_report.txt
 - README.md - This file
 
-#GitHub Repository
+GitHub Repository
+https://github.com/lungile-07/book-market-analytics
 
 
 # Author
